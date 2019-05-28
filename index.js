@@ -2,7 +2,7 @@ function boardMembers(name, homestate, training) {
   this.name = name
   this.homeState = home_state
   this.training = training
-  this.veto = function veto() { return "No, I must disagree" };
+  this.veto = function veto() { return "No, I must disagree" }
   this.approve = function approve () { return "You can do that!" }
   this.charity = function charity () { return "I like to help people."}
   this.releasePressStatement = function () { return  "You will see great things from Scuber."}
